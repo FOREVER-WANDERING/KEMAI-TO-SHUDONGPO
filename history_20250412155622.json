@@ -1,0 +1,13 @@
+[
+    {
+        "type": "sync",
+        "status": "failed",
+        "message": "同步失败",
+        "details": {
+            "time": "2025-04-12 15:55:41",
+            "duration": "1.05s",
+            "force": false
+        },
+        "timestamp": "2025-04-12 15:55:41"
+    }
+]

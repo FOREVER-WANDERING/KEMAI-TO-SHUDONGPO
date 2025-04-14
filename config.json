@@ -1,0 +1,31 @@
+{
+    "db": {
+        "host": "127.0.0.1",
+        "port": "1314",
+        "user": "sa",
+        "password": "Sotopos123",
+        "database": "zhj"
+    },
+    "sdp_api": {
+        "base_url": "https://scm.sdongpo.com/cc_thirdparty",
+        "appid": "3647a33b94f745ed",
+        "secret": "7d3c21acab1539c03f9fb62a4754343f"
+    },
+    "default_site_id": "6",
+    "default_delivery_time": "",
+    "default_pay_way": 0,
+    "ui": {
+        "theme": "default",
+        "font_size": 10,
+        "language": "zh_CN"
+    },
+    "log": {
+        "level": "INFO",
+        "max_files": 10,
+        "max_size": 10
+    },
+    "sync": {
+        "auto_sync": false,
+        "sync_time": "23:00"
+    }
+}

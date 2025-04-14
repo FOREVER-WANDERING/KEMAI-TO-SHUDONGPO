@@ -1,0 +1,59 @@
+{
+    "records": [
+        {
+            "type": "sync",
+            "status": "success",
+            "message": "同步成功完成",
+            "details": {
+                "time": "2025-04-12 17:07:58",
+                "duration": "2.55s",
+                "force": true
+            },
+            "timestamp": "2025-04-12 17:07:58"
+        },
+        {
+            "type": "sync",
+            "status": "failed",
+            "message": "同步失败",
+            "details": {
+                "time": "2025-04-12 17:06:46",
+                "duration": "0.73s",
+                "force": false
+            },
+            "timestamp": "2025-04-12 17:06:46"
+        },
+        {
+            "type": "sync",
+            "status": "failed",
+            "message": "同步失败",
+            "details": {
+                "time": "2025-04-12 17:01:51",
+                "duration": "0.75s",
+                "force": false
+            },
+            "timestamp": "2025-04-12 17:01:51"
+        },
+        {
+            "type": "sync",
+            "status": "failed",
+            "message": "同步失败",
+            "details": {
+                "time": "2025-04-12 17:01:47",
+                "duration": "0.78s",
+                "force": false
+            },
+            "timestamp": "2025-04-12 17:01:47"
+        },
+        {
+            "type": "sync",
+            "status": "failed",
+            "message": "同步失败",
+            "details": {
+                "time": "2025-04-12 16:55:22",
+                "duration": "0.91s",
+                "force": false
+            },
+            "timestamp": "2025-04-12 16:55:22"
+        }
+    ]
+}

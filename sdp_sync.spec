@@ -1,0 +1,76 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+block_cipher = None
+
+a = Analysis(
+    ['simple_launcher_direct.py'],
+    pathex=[],
+    binaries=[],
+    datas=[
+        ('icon.ico', '.'),
+        ('config.json', '.'),
+        ('history.json', '.'),
+        ('config_manager.py', '.'),
+        ('history_manager.py', '.'),
+        ('language_resources.py', '.'),
+        ('theme_manager.py', '.'),
+        ('settings_dialog.py', '.'),
+        ('history_dialog.py', '.'),
+        ('view_logs.py', '.'),
+        ('sync_sdp_order.py', '.'),
+        ('sdp_sync_gui_new.py', '.'),
+        ('simple_launcher_direct.py', '.')
+    ],
+    hiddenimports=[
+        'config_manager',
+        'history_manager',
+        'language_resources',
+        'theme_manager',
+        'settings_dialog',
+        'history_dialog',
+        'view_logs',
+        'sync_sdp_order',
+        'pyodbc',
+        'requests',
+        'json',
+        'logging',
+        'datetime',
+        'traceback',
+        'tkinter',
+        'tkinter.ttk',
+        'tkinter.scrolledtext',
+        'tkinter.messagebox'
+    ],
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    win_no_prefer_redirects=False,
+    win_private_assemblies=False,
+    cipher=block_cipher,
+    noarchive=False,
+)
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    [],
+    name='SDP_Order_Sync_Tool',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    runtime_tmpdir=None,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+    icon='icon.ico',
+)
